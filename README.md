@@ -1,6 +1,6 @@
 Durante la siguiente documentación se expone el uso del servicio API llamado Platzi Fake Store API, su documentación se encuentra en el siguiente URL: [Swagger UI](https://api.escuelajs.co/docs#/users/UsersController_create).
 
-![Documentacion de la API](./Pasted%20image%2020261115164332.png)
+![Documentacion de la API](./images/Pasted%20image%2020261115164332.png)
 
 
 ### Variables Globales
@@ -8,14 +8,14 @@ Durante la siguiente documentación se expone el uso del servicio API llamado Pl
 | BASE_URL | https://api.escuelajs.co/api/v1 |
 | -------- | ------------------------------- |
 
-![Variables globales](./Pasted%20image%2020261115164619.png)
+![Variables globales](./images/Pasted%20image%2020261115164619.png)
 
 
 ### Método POST:
 
 | ENDPOINT | {{baseUrl}}/categories/ |
 | -------- | ----------------------- |
-![Solicitud POST](./Pasted%20image%2020261115165111.png)
+![Solicitud POST](./images/Pasted%20image%2020261115165111.png)
 
 Esquema:
 
@@ -29,15 +29,15 @@ CreateCategoryDto
 
 Resultados:
 
-![Resultado del metodo POST](./Pasted%20image%2020261115170411.png)
-![Respuesta del metodo POST](./Pasted%20image%2020261115170431.png)
+![Resultado del metodo POST](./images/Pasted%20image%2020261115170411.png)
+![Respuesta del metodo POST](./images/Pasted%20image%2020261115170431.png)
 
 ### Método PUT
 
 | ENDPOINT   | `{{baseUrl}}/categories/{{categoryId}}` |
 | ---------- | --------------------------------------- |
 | categoryId | 48                                      |
-![Solicitud PUT](./Pasted%20image%2020261115171338.png)
+![Solicitud PUT](./images/Pasted%20image%2020261115171338.png)
 
 Esquema:
 
@@ -51,26 +51,26 @@ UpdateCategoryDto
 
 Resultado:
 
-![Resultado del metodo PUT](./Pasted%20image%2020261115171300.png)
-![Respuesta del metodo PUT](./Pasted%20image%2020261115171736.png)
+![Resultado del metodo PUT](./images/Pasted%20image%2020261115171300.png)
+![Respuesta del metodo PUT](./images/Pasted%20image%2020261115171736.png)
 
 ### Método GET
 
 | ENDPOINT   | `{{baseUrl}}/categories/{{categoryId}}` |
 | ---------- | --------------------------------------- |
 | categoryId | 48                                      |
-![Solicitud GET](./Pasted%20image%2020261115171859.png)
+![Solicitud GET](./images/Pasted%20image%2020261115171859.png)
 
 
 Resultado:
-![Resultado del metodo GET](./Pasted%20image%2020261115172310.png)
-![Respuesta del metodo GET](./Pasted%20image%2020261115172655.png)
+![Resultado del metodo GET](./images/Pasted%20image%2020261115172310.png)
+![Respuesta del metodo GET](./images/Pasted%20image%2020261115172655.png)
 ### Método DELETE
 
 | ENDPOINT   | `{{baseUrl}}/categories/{{categoryId}}` |
 | ---------- | --------------------------------------- |
 | categoryId | 48                                      |
-![Solicitud DELETE](./Pasted%20image%2020261115173318.png)
+![Solicitud DELETE](./images/Pasted%20image%2020261115173318.png)
 
 Resultado:
-![Resultado del metodo DELETE](./Pasted%20image%2020261115173405.png)
+![Resultado del metodo DELETE](./images/Pasted%20image%2020261115173405.png)
